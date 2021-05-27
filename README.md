@@ -6,5 +6,26 @@ Meu repositório para colocar coisas referente ao curso de selenium.
 
 ## Motivação
 
-Fazendo o curso para <s>me divertir</s> adicionar mais uma ferramenta ao meu "cinto de utilidades".  :laughing:
+Estou fazendo o curso para <s>me divertir</s> adicionar mais uma ferramenta ao meu "cinto de utilidades".  :laughing:
+
+## Como utilizar
+
+Para utilizar basta instalar a lib selenium no seu environment.
+```shell
+pip install selenium
+```
+Adicionar a pasta do projeto no path do bash para que o geckodriver e o chrome driver sejam reconhecidos.
+
+```shell
+export PATH="$PATH:caminho_para_a_pasta_do_projeto"
+```
+Rodar o arquivo desejado.
+```shell
+python exercicio_01.py
+```
+E ver a...
+<img src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="200">
+
+
+
 
