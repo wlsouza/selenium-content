@@ -1,6 +1,8 @@
 from selenium.webdriver import Firefox
 from time import sleep
 
+# Objective: Fill in the forms in the correct order.
+
 def fill_form(browser, form_class, nome, senha):
     browser.find_element_by_css_selector(f'form.{form_class} input[name="nome"]').send_keys(nome)
     browser.find_element_by_css_selector(f'form.{form_class} input[name="senha"]').send_keys(senha)

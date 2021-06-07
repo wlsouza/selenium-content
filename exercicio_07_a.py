@@ -3,6 +3,8 @@ from selenium.webdriver.support.event_firing_webdriver import EventFiringWebElem
 from selenium.webdriver.support.events import AbstractEventListener, EventFiringWebDriver
 from time import sleep
 
+# Objective: Fill in the form and get the values of label before and after it change.
+
 class EventListener(AbstractEventListener):
 
     def before_change_value_of(self, element, driver):

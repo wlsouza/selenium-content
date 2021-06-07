@@ -3,6 +3,8 @@ from time import sleep
 from urllib.parse import urlparse, unquote
 from json import loads
 
+# Objective: Fill and submit the form
+
 def fill_form(browser, name, email, password, phone):
     browser.find_element_by_name("nome").send_keys(name)
     browser.find_element_by_name("email").send_keys(email)

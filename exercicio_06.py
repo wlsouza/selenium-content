@@ -2,6 +2,8 @@ from selenium.webdriver import Firefox
 from time import sleep
 import re
 
+# Objective: Fill in the correct forms a X number of times.
+
 def fill_form(browser, form_class, nome, senha):
     browser.find_element_by_css_selector(f'form.{form_class} input[name="nome"]').send_keys(nome)
     browser.find_element_by_css_selector(f'form.{form_class} input[name="senha"]').send_keys(senha)
