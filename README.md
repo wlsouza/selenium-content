@@ -2,30 +2,39 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Python 3.0](https://img.shields.io/badge/python-_>=_3.0-blue.svg)](https://www.python.org/downloads/release/python-300/)
 
-Meu repositório para colocar coisas referente ao curso de selenium.
+Repository for putting stuff related to the selenium content I'm studying.
 
-## Motivação
+## :dart: Goal
 
-Estou fazendo o curso para <s>me divertir</s> adicionar mais uma ferramenta ao meu "cinto de utilidades".  :laughing:
+I'm following the [selenium](https://www.selenium.dev/) content provided by the channel [Live de Python](https://www.youtube.com/user/mendesesduardo) to <s>have fun😅</s> add one more tool to my "utility belt".
 
-## Como utilizar
+## :construction_worker: How to use
 
-Para utilizar basta instalar a lib selenium no seu environment.
+To use it, just install the selenium lib in your environment. 
 ```shell
 pip install selenium
 ```
-Adicionar a pasta do projeto no path do bash para que o geckodriver e o chrome driver sejam reconhecidos.
+Add the project folder to the bash path so that geckodriver and chromedriver are recognized. 
 
 ```shell
-export PATH="$PATH:caminho_para_a_pasta_do_projeto"
+export PATH="$PATH:path_to_project_folder"
 ```
-Rodar o arquivo desejado.
+Run the file just as any other Python script (.py) file.
 ```shell
-python exercicio_01.py
+python exercise_01.py
 ```
-E ver a...
+And see the...  
 <img src="https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif" width="200">
 
+## 🛠️ dependencies
+* [Python](https://www.python.org) - 3.0 or newer.
+* [Selenium](https://github.com/SeleniumHQ/selenium) - Library to programmatically control the web browser.
+* [PyAutoGUI](https://github.com/asweigart/pyautogui) - Library to programmatically control the mouse and keyboard. (Used in exercise_08_a.py)
 
+
+## 📚 Acknowledgements
+* [Selenium Documentations](https://selenium-python.readthedocs.io/)
+* [PyAutoGUI Documentations](https://pyautogui.readthedocs.io/en/latest/)
+* [Live de python YouTube channel](https://www.youtube.com/user/mendesesduardo)
 
 
